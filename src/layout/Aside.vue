@@ -1,8 +1,8 @@
 <template>
   <div>
-    <el-aside width="200px" style="background-color: rgb(238, 241, 246)" v-if="hasAnyAuth('ROLE_ADMIN') && authenticated">
+    <el-aside width="208.4px" style="background-color: rgb(238, 241, 246)" v-if="hasAnyAuth('ROLE_ADMIN') && authenticated">
 <!--      Faqat 'ROLE_ADMIN' bo'lsagina Aside ochiladi   -->
-      <el-menu :default-openeds="['1', '3']">
+      <el-menu>
         <el-submenu index="1">
           <template v-slot:title><i class="el-icon-message"></i>Navigator One</template>
           <el-menu-item-group>

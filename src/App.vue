@@ -33,10 +33,12 @@ export default {
 <style>
 
 .el-header, .el-footer {
-  background-color: #B3C0D1;
+  background-color: #80dae1;
   color: #333;
   text-align: center;
   line-height: 60px;
+  min-height: 100px;
+  margin-left: -8px;
 }
 
 .el-aside {
@@ -44,15 +46,15 @@ export default {
   color: #333;
   text-align: center;
   line-height: 200px;
+  margin-left: -8px;
 }
 
 
 
 .el-main {
-  background-color: antiquewhite;
+  background-color: #d4c3e8;
   color: #114fbe;
   text-align: center;
-
 }
 
 body > .el-container {

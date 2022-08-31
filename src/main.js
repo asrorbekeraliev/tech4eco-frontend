@@ -7,10 +7,11 @@ import 'element-ui/lib/theme-chalk/index.css'
 import * as config from './config/config.js'
 import AccountService from "@/account/account.service";
 import store from '../src/account/Store'
-
+import locale from 'element-ui/lib/locale/lang/en'
 Vue.config.productionTip = false
 Vue.use(VueRouter)
-Vue.use(ElementUI)
+Vue.use(ElementUI, {locale})
+
 config.initVueApp(Vue)
 const router = new VueRouter({
     routes: Router

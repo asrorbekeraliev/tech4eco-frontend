@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top: 200px;">
+  <div style="margin-top: 200px; margin-bottom: 200px">
     <el-row :gutter="20">
       <el-col :span="8" :offset="6" >
         <el-card shadow="always">
